@@ -1,8 +1,5 @@
 probs <- c(A = 0.10, B = 0.15, C = 0.20, D = 0.25)
 
-drivers <- c('A', 'B', 'C', 'D')
-tickets <- c(A = 0, B = 0, C = 0, D = 0)
-
 runCarPool <- function(i) {
   drivers <- c('A', 'B', 'C', 'D')
   tickets <- c(A = 0, B = 0, C = 0, D = 0)
