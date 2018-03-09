@@ -55,5 +55,5 @@ print("% wins rerolling only X:")
 print(str(100 * np.mean(strat_one_wins)) + "%")
 
 print("")
-print("% wins rerolling both 1 and  X:")
+print("% wins rerolling both 1 and X:")
 print(str(100 * np.mean(strat_two_wins)) + "%")
