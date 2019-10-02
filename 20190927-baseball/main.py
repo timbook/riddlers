@@ -10,8 +10,8 @@ def sim_game(t1, t2):
 
     return t1.name if t1.score > t2.score else t2.name
 
-N_GAMES = 10000
-m_wins = d_wins = t_wins = 0
+N_GAMES = 20000
+m_wins, d_wins, t_wins = 0 , 0 , 0
 
 # Moonwalkers vs Doubloons
 m_vs_d = [sim_game(Moonwalkers(), Doubloons()) for _ in range(N_GAMES)]
