@@ -71,7 +71,7 @@ class Taters(Team):
             at_bat = self.sim_at_bat()
             if at_bat == "strikeout":
                 inning_outs += 1
-            elif at_bat == "double":
+            elif at_bat == "homer":
                 inning_score += 1
 
         return inning_score
